@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cont {
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #627ea1;
+            border-radius: 20px;
+        }
+
+        #cont>div:nth-child(1) {
+            height: 40px;
+            width: 10%;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #cont>div:nth-child(2) {
+            height: 40px;
+            width: 40%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #cont>div:nth-child(2)>div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cont">
+        <div>Reebok</div>
+        <div>
+            <div>Men</div>
+            <div><a href="womenspage.html">
+                Women
+            </a></div>
+            <div><a href="login.html">Login</a></div>
+            <div><a href="sigup.html">Signup</a> </div>
+        </div>
+    </div>
+</body>
+
+</html>
